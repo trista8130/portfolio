@@ -328,9 +328,9 @@ function App() {
           <div className="download-content">
             <h2 className="text-white mb-24">Check My Resume!</h2>
 
-            <a className="button back-w text-black" href="/resume" target='#blank'>
+            <Link className="button back-w text-black" to="/resume" target='#blank'>
              CLICK NOW!
-            </a>
+            </Link>
           </div>
         </div>
         <div className="contact" id="contact">
