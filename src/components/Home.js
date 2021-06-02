@@ -150,7 +150,7 @@ function App() {
                 </li>
                 <li>
                   <a id="link2" href="#services">
-                    Skills
+                    Experience
                   </a>
                 </li>
                 <li>
@@ -158,6 +158,7 @@ function App() {
                     Portfolio
                   </a>
                 </li>
+
                 <li>
                   <a id="link4" href="#contact">
                     Contact
@@ -216,8 +217,243 @@ function App() {
         </div>
         <div className="service" id="services">
           <div className="service-content">
-            <h2>With My Skills</h2>
+            <h2>With My Experience</h2>
             <hr className="hr-r" />
+            <div className="experience">
+              <div>
+                <h3>ETOMON</h3>
+                <h4>NEW YORK, Sep 2020 to May 2021</h4>
+                <ul>
+                  <li>
+                    Work closely with UX designers from ideation to prototyping
+                    to define and deliver new features
+                  </li>
+                  <li>
+                    Developed private localization library that using
+                    jquery-i18next framework for web page that created with
+                    JQuery. Use additional plugins such as use(LanguageDetector)
+                    to detect browser language, config i18n instance to inject
+                    translation resource.
+                  </li>
+                  <li>
+                    Created localize method in jquery-i18next lib to
+                    automatically check and localize every html element which
+                    has specified selectorAttr, which can avoid manually inject
+                    localize method after each element in each page.
+                  </li>
+                  <li>
+                    Developed private localization library that using
+                    react-i18next framework for web page that created with
+                    React. Use I18nextProvider to pass i18next instance, use HOC
+                    withTranslation or component Trans which provided by
+                    react-i18next to localize each component.
+                  </li>
+                  <li>
+                    Created reusable component such as course detail and course
+                    listing to show course information and approved active
+                    course.
+                  </li>
+                  <li>
+                    Create interaction screens using HTML5, CSS3, JavaScript,
+                    React, and Material UI to develop single-page applications
+                    using React Redux architecture, ES6, Webpack, and Gulp
+                  </li>
+                  <li>
+                    Use CSS preprocessors like SCSS for reusable component
+                    styles
+                  </li>
+                  <li>
+                    Use middleware like Redux-thunk in application to retrieve
+                    data from back-end and to also perform RESTful services
+                  </li>
+                  <li>
+                    Manage state within the app using Redux and persist certain
+                    parts of the state to the device via Redux Persist
+                  </li>
+                  <li>
+                    Implement modules into Node.js to integrate with designs and
+                    requirements
+                  </li>
+                  <li>
+                    Develop the flux pattern by using the Redux library as a
+                    core dependency
+                  </li>
+                  <li>
+                    Rapidly build and iterate functional prototypes using HTML5,
+                    CSS3, and React
+                  </li>
+                  <li>
+                    Involve in daily Scrum meetings to keep track of the ongoing
+                    project status and issues{" "}
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>OPENMENU</h3>
+                <h4>NEW YORK, JAN 2020 to AUG 2021</h4>
+                <ul>
+                  <li>
+                    Worked with React props, state, keys, refs, events, default
+                    props, and propTypes.
+                  </li>
+                  <li>
+                    Experience with Redux for state management. Created store,
+                    actions, and reducers as pure functions.
+                  </li>
+                  <li>
+                    Experience with Redux middleware’s - react-video,
+                    react-select, react-tagsinput, react-datagrid, react-panels,
+                    react-calendar.
+                  </li>
+                  <li>
+                    Extensive experience with Promises to make asynchronous
+                    calls and use Axios as an interface to fetch resources.
+                  </li>
+                  <li>
+                    Experience with third-party React components library like
+                    react-grid, react-sortable, react-tags,
+                    react-infinite-scroll, react-date picker, and
+                    react-tagsinput, react-select, react-video.
+                  </li>
+                  <li>
+                    Created Menu component on cline interface to display menu
+                    photos, price, details, allow user to add or reduce dish
+                    amount which also reflect on cart side.
+                  </li>
+                  <li>
+                    Created MenuEditing component on merchant interface with
+                    AntDesign, customize Table and Form ferture to full fill the
+                    requirement that allow owner to edit menu detail info such
+                    as upload photos, edit price and amount, choose category,
+                    and set lunch speical time.
+                  </li>
+                  <li>
+                    Experience with JavaScript (ES5/ES6/ES7) - Closures,
+                    Hoisting, Strict Mode, Scope, Block Scoping, Promises,
+                    Generators, Maps and Sets, String interpolation, async and
+                    await, array Extensions, modules, and classes.
+                  </li>
+                  <li>
+                    Built out Restful endpoints and lightweight aggregation
+                    layers using NodeJs frameworks such as Express, Body parser,
+                    cluster, process, Winston, Redis, passport, mongoose,
+                    lodash, etc.
+                  </li>
+                  <li>
+                    Used Mongoose Schema/Model to create, update and delete with
+                    Express controllers.
+                  </li>
+                  <li>
+                    Created Restful APIs with Express and used MongoDB for
+                    persistence and Redis for caching.
+                  </li>
+                  <li>
+                    Used Socket.IO in the adoption of Node.js by making Web
+                    Sockets both accessible and reliable.
+                  </li>
+                  <li>
+                    Created SPA (Single Page Application) by configuring
+                    React-Router. Used Browser Router for Web.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>ABELMED</h3>
+                <h4>NEW YORK, JAN 2018 to DEC 2019 </h4>
+                <ul>
+                  <li>
+                    Responsible for creating efficient design and developing
+                    User Interaction screens / SPA using HTML5, CSS3,
+                    JavaScript, NodeJS, React.JS and Bootstrap.
+                  </li>
+                  <li>Implemented MVVM architecture using React and Redux.</li>
+                  <li>
+                    Developed single-page applications using React Redux
+                    architecture, ES6, Webpack, and gulp.
+                  </li>
+                  <li>
+                    Used CSS preprocessors like SASS for re-usable style
+                    components.
+                  </li>
+                  <li>Created charts components using High charts library.</li>
+                  <li>
+                    Used Middleware like Redux-thunk in application to retrieve
+                    data from Back-End and to also perform RESTFUL services.
+                  </li>
+                  <li>
+                    Managed state within the app using Redux and persisted
+                    certain parts of the state to the device via Redux Persist.
+                  </li>
+                  <li>
+                    Implement modules into Node JS to integrate with designs and
+                    requirements.
+                  </li>
+                  <li>Built RESTful APIs using Express and NodeJS.</li>
+                  <li>
+                    Developed the flux pattern by using the redux library as a
+                    core dependency.
+                  </li>
+                  <li>
+                    Involved in daily SCRUM meetings to keep track of the
+                    ongoing project status and issues.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>CLOUD ID</h3>
+                <h4>NEW YORK, NOV 2016 to NOV 2017 </h4>
+                <ul>
+                  <li>
+                    Involved in developing the UI, layout, and front-end
+                    programming HTML for the web application that matches the
+                    requirements of the client.
+                  </li>
+                  <li>
+                    Excellently coordinated with other teammates in project
+                    activities and ensure that all project phases are followed
+                    and documented properly.
+                  </li>
+                  <li>
+                    Designed business applications using web technologies like
+                    HTML5, DHTML, XHTML and CSS based on the W3C standards.
+                  </li>
+                  <li>
+                    Extensively involved in design discussion and
+                    user-experience sessions to provide input on the layout and
+                    UX.
+                  </li>
+                  <li>
+                    Designed the front-end applications, user interactive UI web
+                    pages using web technologies like HTML, CSS, jQuery,
+                    JavaScript, JSON, XML.
+                  </li>
+                  <li>
+                    Developed non-functional HTML/5, CSS3 pages from the
+                    mock-ups and involved in UI review with the UI architect and
+                    Business Units.
+                  </li>
+                  <li>
+                    Developed GUI using JavaScript, HTML/HTML5, DOM, AJAX, CSS3
+                    and jQuery in ongoing projects.
+                  </li>
+                  <li>
+                    Converted the mock-ups into hand-written HTML, CSS 2/3,
+                    JavaScript, jQuery, Ajax, XML and JSON.
+                  </li>
+                  <li>
+                    Developed the user authentication and order processing
+                    modules for customer-facing applications.
+                  </li>
+                  <li>
+                    Created nested forms for users to customize the templates
+                    and ordered a print preview.
+                  </li>
+                  <li>
+                    Participated in requirements definition and story carding.
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="service-row">
               <div className="service-box mt-48">
                 <i className="fas fa-gem i-r mb-24"></i>
@@ -328,8 +564,12 @@ function App() {
           <div className="download-content">
             <h2 className="text-white mb-24">Check My Resume!</h2>
 
-            <Link className="button back-w text-black" to="/resume" target='#blank'>
-             CLICK NOW!
+            <Link
+              className="button back-w text-black"
+              to="/resume"
+              target="#blank"
+            >
+              CLICK NOW!
             </Link>
           </div>
         </div>
